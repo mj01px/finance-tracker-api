@@ -72,4 +72,3 @@ def get_db():
         yield db  # Provide session to FastAPI route handlers
     finally:
         db.close()  # Always close after request is handled
-        
