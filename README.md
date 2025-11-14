@@ -6,6 +6,15 @@ This API supports **CRUD operations**, **report generation**, and **balance trac
 
 ---
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Tech Stack](#tech-stack)
+3. [Project Structure](#project-structure)
+4. [Example Endpoints](#example-endpoints)
+5. [Architecture Notes](#architecture-notes) 
+6. [Author](#author)
+
+---
 ## Overview
 
 **Finance Tracker API** centralizes income and expense data to make budget management simple, consistent, and developer-friendly.
@@ -60,18 +69,7 @@ app/
  └── utils.py            # Helper functions (e.g., balance calc)
 
 ```
-
----
-
-
-### 5. Run the server
-```bash
-uvicorn app.main:app --reload
-```
-
-Server runs at → **http://localhost:8000**
-
----
+--
 
 ## Example Endpoints
 
@@ -97,13 +95,7 @@ This keeps the code **modular**, **testable**, and **ready for production scalin
 
 ---
 
-## License
-
-This project is released under the **MIT License** — feel free to use, modify, and learn from it.
-
----
-
-## ✍️ Author
+## Author
 
 **Mauro Junior**  
-Software Engineering Student • Backend Developer • Tech Enthusiast  
+Software Engineering Student • Tech Enthusiast  
